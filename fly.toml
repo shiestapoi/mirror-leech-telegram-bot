@@ -1,6 +1,6 @@
-# fly.toml file generated for telemirror on 2023-02-22T01:08:24+07:00
+# fly.toml file generated for ewewew on 2023-02-22T01:59:15+07:00
 
-app = "telemirror"
+app = "ewewew"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
