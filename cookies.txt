@@ -1,0 +1,44 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.youtube.com	TRUE	/	TRUE	1689833964	DEVICE_INFO	ChxOekU1TURjMU5ETTFNVFV3TnpRME1qTXpPUT09EPzhqp4GGPzhqp4G	67
+.youtube.com	TRUE	/	TRUE	1689833964	VISITOR_INFO1_LIVE	Qh7xIoRXDRI	29
+.youtube.com	TRUE	/	FALSE	1682058287	_gcl_au	1.1.1418954468.1674282287	32
+.youtube.com	TRUE	/	FALSE	1692411860	__utmz	27069237.1675873343.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)	99
+.youtube.com	TRUE	/	FALSE	1711541975	HSID	AWs7HKq2LB1EEspeu	21
+.youtube.com	TRUE	/	TRUE	1711541975	SSID	AMgLd2SB_pxRtH5F1	21
+.youtube.com	TRUE	/	FALSE	1711541975	APISID	qFTRlX8EWQrEk-13/AixrOWS5214sOOOcp	40
+.youtube.com	TRUE	/	TRUE	1711541975	SAPISID	5De3AD579nA5GUQ9/A14llLVhLjHH_fuPg	41
+.youtube.com	TRUE	/	TRUE	1711541975	__Secure-1PAPISID	5De3AD579nA5GUQ9/A14llLVhLjHH_fuPg	51
+.youtube.com	TRUE	/	TRUE	1711541975	__Secure-3PAPISID	5De3AD579nA5GUQ9/A14llLVhLjHH_fuPg	51
+.youtube.com	TRUE	/	TRUE	1710684941	LOGIN_INFO	AFmmF2swRQIgT6_2eMa3kePzGqypiNN2b_uSdaRIT1sLAIxupawivHwCIQCSh-rUcXCFg9gQpNlJWOAdTflStKjkAUoGFy5PRxO-vg:QUQ3MjNmd1gwTHRBVnR0VmVvV3ByTWJVT2FITnJ4eVBoSmpETDdITDBuZXR3SUR2eUNSZ1Y5b1JpcVdOQWJjMTJNRTNhams0MlQ2dGFxTG9hWmtmVEMyTkpsY0U2UGl3QV9kX0Y5dWt1NmhGT2RZT3hKMkNBbnZSSWFxQ2pNdlg3Nk5GWHBYSEVmblh4bWtlMU8xVzBtQnU4dG9QQnNuanB3	329
+.youtube.com	TRUE	/	FALSE	1711203860	__utma	27069237.1193075481.1674286203.1675873343.1676643860.3	60
+.youtube.com	TRUE	/	TRUE	1711603141	PREF	f6=40000080&f7=c00&tz=Asia.Bangkok&f5=20000	47
+.youtube.com	TRUE	/	FALSE	1711541975	SID	TwinuIDILcOcx7bfre3eaanwDKViRwTRrwvK8rwahB_fRIPv5pvsbNiNAmxLG_iMBe2UFw.	74
+.youtube.com	TRUE	/	TRUE	1711541975	__Secure-1PSID	TwinuIDILcOcx7bfre3eaanwDKViRwTRrwvK8rwahB_fRIPv_PlqVG0X9Wie-wSh_8cHiQ.	85
+.youtube.com	TRUE	/	TRUE	1711541975	__Secure-3PSID	TwinuIDILcOcx7bfre3eaanwDKViRwTRrwvK8rwahB_fRIPvZHSG7MhVCvcSfCOrzBvWxg.	85
+.youtube.com	TRUE	/	TRUE		YSC	fKRa48yjeN4	14
+.youtube.com	TRUE	/	FALSE	1708579138	SIDCC	AFvIBn_7Bxsf5u3By7-RQdw-tu1WZq-OgQVS36vELRtBofhpnTIJ_VEj-R7n92oJSuea8mqMdSR3	81
+.youtube.com	TRUE	/	TRUE	1708579138	__Secure-1PSIDCC	AFvIBn-3YqrFvldnuY7-hBo9I9osntkpcg9ptOW4YQubenkGXdHf63u0lh-aa0BAv9ImulCDK2c	91
+.youtube.com	TRUE	/	TRUE	1708579138	__Secure-3PSIDCC	AFvIBn8KE6OdC-a4V7iVik5UM0PSURsgoyvpyoWNgOpKCXNexFWyL7cfeX-cE6coWN8UJrUwBb4	91
+www.youtube.com	FALSE	/			DEVICE_INFO	ChxOekU1TURjMU5ETTFNVFV3TnpRME1qTXpPUT09EPzhqp4GGPzhqp4G	67
+www.youtube.com	FALSE	/			 VISITOR_INFO1_LIVE	Qh7xIoRXDRI	30
+www.youtube.com	FALSE	/			 _gcl_au	1.1.1418954468.1674282287	33
+www.youtube.com	FALSE	/			 __utmz	27069237.1675873343.2.2.utmcsr	37
+www.youtube.com	FALSE	/			 HSID	AWs7HKq2LB1EEspeu	22
+www.youtube.com	FALSE	/			 SSID	AMgLd2SB_pxRtH5F1	22
+www.youtube.com	FALSE	/			 APISID	qFTRlX8EWQrEk-13/AixrOWS5214sOOOcp	41
+www.youtube.com	FALSE	/			 SAPISID	5De3AD579nA5GUQ9/A14llLVhLjHH_fuPg	42
+www.youtube.com	FALSE	/			 __Secure-1PAPISID	5De3AD579nA5GUQ9/A14llLVhLjHH_fuPg	52
+www.youtube.com	FALSE	/			 __Secure-3PAPISID	5De3AD579nA5GUQ9/A14llLVhLjHH_fuPg	52
+www.youtube.com	FALSE	/			 LOGIN_INFO	AFmmF2swRQIgT6_2eMa3kePzGqypiNN2b_uSdaRIT1sLAIxupawivHwCIQCSh-rUcXCFg9gQpNlJWOAdTflStKjkAUoGFy5PRxO-vg:QUQ3MjNmd1gwTHRBVnR0VmVvV3ByTWJVT2FITnJ4eVBoSmpETDdITDBuZXR3SUR2eUNSZ1Y5b1JpcVdOQWJjMTJNRTNhams0MlQ2dGFxTG9hWmtmVEMyTkpsY0U2UGl3QV9kX0Y5dWt1NmhGT2RZT3hKMkNBbnZSSWFxQ2pNdlg3Nk5GWHBYSEVmblh4bWtlMU8xVzBtQnU4dG9QQnNuanB3	330
+www.youtube.com	FALSE	/			 __utma	27069237.1193075481.1674286203.1675873343.1676643860.3	61
+www.youtube.com	FALSE	/			 PREF	f6	7
+www.youtube.com	FALSE	/			 SID	TwinuIDILcOcx7bfre3eaanwDKViRwTRrwvK8rwahB_fRIPv5pvsbNiNAmxLG_iMBe2UFw.	75
+www.youtube.com	FALSE	/			 __Secure-1PSID	TwinuIDILcOcx7bfre3eaanwDKViRwTRrwvK8rwahB_fRIPv_PlqVG0X9Wie-wSh_8cHiQ.	86
+www.youtube.com	FALSE	/			 __Secure-3PSID	TwinuIDILcOcx7bfre3eaanwDKViRwTRrwvK8rwahB_fRIPvZHSG7MhVCvcSfCOrzBvWxg.	86
+www.youtube.com	FALSE	/			 YSC	fKRa48yjeN4	15
+www.youtube.com	FALSE	/			 SIDCC	AFvIBn9iLf3j1mMOJoAvr98CCeznbzjXyyFyu3MMWI7kMcswXlIt21xkM8xfVsezE3QmEyxISY4b	82
+www.youtube.com	FALSE	/			 __Secure-1PSIDCC	AFvIBn_nXDCc_yuopbRezMOytv_ZpR5ammQa2NQUt9HebGucez2pmUUcCZe6opx5yJkEjZ1D1ok	92
+www.youtube.com	FALSE	/			 __Secure-3PSIDCC	AFvIBn-1R-lmBsCKTQVyPQrzN0cWj8_CocnJ9mhANNTPRYUt9n5kgFBVaJweCPvahX8Uelsuyqs	92

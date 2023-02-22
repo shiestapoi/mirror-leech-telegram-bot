@@ -8,3 +8,73 @@
 2023-02-22 00:26:00,642 - pyrogram.session.session - INFO - System: Linux 4.4.0-22621-Microsoft (EN)
 2023-02-22 00:26:00,643 - pyrogram.session.session - INFO - Session started
 2023-02-22 00:26:00,736 - pyrogram.session.session - INFO - PingTask started
+2023-02-22 04:59:45,239 - root - INFO - Creating client from USER_SESSION_STRING
+2023-02-22 04:59:45,692 - pyrogram.connection.connection - INFO - Connecting...
+2023-02-22 04:59:45,696 - pyrogram.connection.connection - INFO - Connected! Production DC5 - IPv4 - TCPAbridgedO
+2023-02-22 04:59:45,697 - pyrogram.session.session - INFO - NetworkTask started
+2023-02-22 04:59:45,701 - pyrogram.session.internals.msg_id - INFO - Time synced: 2023-02-22 04:59:45.700600 UTC
+2023-02-22 04:59:45,739 - pyrogram.session.session - INFO - Session initialized: Layer 150
+2023-02-22 04:59:45,739 - pyrogram.session.session - INFO - Device: CPython 3.10.6 - Pyrogram 2.0.73
+2023-02-22 04:59:45,739 - pyrogram.session.session - INFO - System: Linux 5.12.2 (EN)
+2023-02-22 04:59:45,739 - pyrogram.session.session - INFO - Session started
+2023-02-22 04:59:45,788 - pyrogram.session.session - INFO - PingTask started
+2023-02-22 04:59:47,147 - root - INFO - Initializing Aria2c
+2023-02-22 04:59:48,675 - root - INFO - Creating client from BOT_TOKEN
+2023-02-22 04:59:48,995 - pyrogram.session.auth - INFO - Start creating a new auth key on DC2
+2023-02-22 04:59:48,996 - pyrogram.connection.connection - INFO - Connecting...
+2023-02-22 04:59:50,500 - pyrogram.connection.connection - INFO - Connected! Production DC2 - IPv4 - TCPAbridgedO
+2023-02-22 04:59:52,686 - pyrogram.session.auth - INFO - Done auth key exchange: DhGenOk
+2023-02-22 04:59:52,686 - pyrogram.connection.connection - INFO - Disconnected
+2023-02-22 04:59:52,838 - pyrogram.connection.connection - INFO - Connecting...
+2023-02-22 04:59:53,320 - pyrogram.connection.connection - INFO - Connected! Production DC2 - IPv4 - TCPAbridgedO
+2023-02-22 04:59:53,321 - pyrogram.session.session - INFO - NetworkTask started
+2023-02-22 04:59:54,771 - pyrogram.session.session - INFO - Session initialized: Layer 150
+2023-02-22 04:59:54,772 - pyrogram.session.session - INFO - Device: CPython 3.10.6 - Pyrogram 2.0.73
+2023-02-22 04:59:54,772 - pyrogram.session.session - INFO - System: Linux 5.12.2 (EN)
+2023-02-22 04:59:54,772 - pyrogram.session.session - INFO - Session started
+2023-02-22 04:59:54,812 - pyrogram.session.session - INFO - PingTask started
+2023-02-22 04:59:55,323 - pyrogram.session.session - INFO - PingTask stopped
+2023-02-22 04:59:55,324 - pyrogram.connection.connection - INFO - Disconnected
+2023-02-22 04:59:55,324 - pyrogram.session.session - INFO - NetworkTask stopped
+2023-02-22 04:59:55,324 - pyrogram.session.session - INFO - Session stopped
+2023-02-22 04:59:55,418 - pyrogram.session.auth - INFO - Start creating a new auth key on DC5
+2023-02-22 04:59:55,418 - pyrogram.connection.connection - INFO - Connecting...
+2023-02-22 04:59:55,422 - pyrogram.connection.connection - INFO - Connected! Production DC5 - IPv4 - TCPAbridgedO
+2023-02-22 04:59:56,164 - pyrogram.session.auth - INFO - Done auth key exchange: DhGenOk
+2023-02-22 04:59:56,165 - pyrogram.connection.connection - INFO - Disconnected
+2023-02-22 04:59:56,263 - pyrogram.connection.connection - INFO - Connecting...
+2023-02-22 04:59:56,266 - pyrogram.connection.connection - INFO - Connected! Production DC5 - IPv4 - TCPAbridgedO
+2023-02-22 04:59:56,266 - pyrogram.session.session - INFO - NetworkTask started
+2023-02-22 04:59:56,360 - pyrogram.session.session - INFO - Session initialized: Layer 150
+2023-02-22 04:59:56,361 - pyrogram.session.session - INFO - Device: CPython 3.10.6 - Pyrogram 2.0.73
+2023-02-22 04:59:56,361 - pyrogram.session.session - INFO - System: Linux 5.12.2 (EN)
+2023-02-22 04:59:56,361 - pyrogram.session.session - INFO - Session started
+2023-02-22 04:59:56,362 - pyrogram.session.session - INFO - PingTask started
+2023-02-22 04:59:56,532 - pyrogram.dispatcher - INFO - Started 5 HandlerTasks
+2023-02-22 05:02:42,058 - bot - INFO - Users data has been imported from Database
+2023-02-22 05:02:44,124 - bot - INFO - Creating Telegraph Account
+2023-02-22 05:02:44,929 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-02-22 05:02:44,930 - apscheduler.scheduler - INFO - Added job "RSS" to job store "default"
+2023-02-22 05:02:44,930 - apscheduler.scheduler - INFO - Scheduler started
+2023-02-22 05:02:45,030 - bot - INFO - Bot Started!
+2023-02-22 05:03:04,931 - apscheduler.executors.default - INFO - Running job "RSS (trigger: interval[0:15:00], next run at: 2023-02-22 05:18:04 UTC)" (scheduled at 2023-02-22 05:03:04.929239+00:00)
+2023-02-22 05:03:04,931 - bot - WARNING - RSS_CHAT_ID not added! Shutting down rss scheduler...
+2023-02-22 05:03:04,931 - apscheduler.executors.default - INFO - Job "RSS (trigger: interval[0:15:00], next run at: 2023-02-22 05:18:04 UTC)" executed successfully
+2023-02-22 05:03:04,932 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-02-22 05:03:16,936 - bot - INFO - Downloading with YT-DLP: https://www.youtube.com/watch?v=EIPxJN1e1BI
+2023-02-22 05:03:17,998 - bot.helper.mirror_utils.download_utils.yt_dlp_download_helper - INFO - Download with YT_DLP: ❥ 撫でんな／柊マグネタイト【歌ってみた by 月乃】 1080p30fps 1100.mp4
+2023-02-22 05:03:23,111 - bot.helper.mirror_utils.download_utils.yt_dlp_download_helper - INFO - [Merger] Merging formats into "/downloads/282/❥ 撫でんな／柊マグネタイト【歌ってみた by 月乃】 1080p30fps 1100.mp4"
+2023-02-22 05:03:23,402 - bot - INFO - Download completed: ❥ 撫でんな／柊マグネタイト【歌ってみた by 月乃】 1080p30fps 1100.mp4
+2023-02-22 05:04:25,864 - bot - INFO - https://sourceforge.net/projects/realme5series/files/riceDroid-13.0-202302101450-r5x-v10.2-Gapps-COMMUNITY.zip/download
+2023-02-22 05:04:30,826 - bot - INFO - Aria2Download started: 1bac776f69d035f2
+2023-02-22 05:04:30,828 - bot - INFO - onDownloadStarted: download - Gid: 1bac776f69d035f2
+2023-02-22 05:28:13,538 - bot - INFO - Download from Telegram: Phonesky.apk
+2023-02-22 05:28:16,903 - bot - INFO - Download completed: Phonesky.apk
+2023-02-22 05:28:16,904 - bot - INFO - Upload Name: Phonesky.apk
+2023-02-22 05:28:16,938 - bot.helper.mirror_utils.upload_utils.gdriveTools - INFO - Authorize with token.pickle
+2023-02-22 05:28:16,947 - bot.helper.mirror_utils.upload_utils.gdriveTools - INFO - Uploading: ./downloads/300/Phonesky.apk
+2023-02-22 05:28:21,719 - bot.helper.mirror_utils.upload_utils.gdriveTools - INFO - Uploaded To G-Drive: ./downloads/300/Phonesky.apk
+2023-02-22 05:28:21,721 - bot - INFO - Done Uploading Phonesky.apk
+2023-02-22 05:28:21,748 - bot - INFO - Cleaning Download: ./downloads/300
+2023-02-22 05:38:30,171 - bot - INFO - onDownloadComplete: riceDroid-13.0-202302101450-r5x-v10.2-Gapps-COMMUNITY.zip - Gid: 1bac776f69d035f2
+2023-02-22 05:38:30,177 - bot - INFO - Download completed: riceDroid-13.0-202302101450-r5x-v10.2-Gapps-COMMUNITY.zip
