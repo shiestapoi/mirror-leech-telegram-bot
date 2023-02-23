@@ -1,8 +1,8 @@
-# fly.toml file generated for teleshiina on 2023-02-23T21:06:41+07:00
+# fly.toml file generated for morning-bush-4528 on 2023-02-23T21:55:30+07:00
 
-app = "teleshiina"
+app = "morning-bush-4528"
 kill_signal = "SIGINT"
-kill_timeout = 5
+kill_timeout = 300
 processes = []
 
 [env]
