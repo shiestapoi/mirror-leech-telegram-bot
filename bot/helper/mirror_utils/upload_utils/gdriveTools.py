@@ -383,7 +383,6 @@ class GoogleDriveHelper:
                 if INDEX_URL := config_dict['INDEX_URL']:
                     url_path = rquote(f'{meta.get("name")}', safe='')
                     url = f'{INDEX_URL}/{url_path}/'
-                    buttons.ubutton("⚡ Index Link", url)
                     if "video" in mime_type:
                         result_get_0 = INDEX_URL.split("/")[3]
                         resultpath = '/' + result_get_0 + '/' + file.get('name')
@@ -395,8 +394,10 @@ class GoogleDriveHelper:
                             result_rmv_b = result_rmv_b[1:]
                         INDEX_URLVIDEO = INDEX_URL.replace(result_get_0, "0:video/")
                         share_urlvideo = INDEX_URLVIDEO + result_rmv_b
-                        buttons.ubutton("⚡ Index Link", share_url)
+                        buttons.ubutton("⚡ Index Link", url)
                         buttons.ubutton("🎬 Stream Link", share_urlvideo)
+                    else:
+                        buttons.ubutton("⚡ Index Link", url)
             else:
                 file = self.__copyFile(meta.get('id'), config_dict['GDRIVE_ID'])
                 msg += f'<b>Name: </b><code>{file.get("name")}</code>'
