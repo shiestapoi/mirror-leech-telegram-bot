@@ -385,7 +385,7 @@ class GoogleDriveHelper:
                     url = f'{INDEX_URL}/{url_path}/'
                     if "video" in mime_type:
                         result_get_0 = INDEX_URL.split("/")[3]
-                        resultpath = '/' + result_get_0 + '/' + file.get('name')
+                        resultpath = '/' + result_get_0 + '/' + meta.get("name")
                         encoded_string = base64.b64encode(resultpath.encode("utf-8"))
                         result_rmv_b = encoded_string.decode('utf-8')
                         result_rmv_b = result_rmv_b.replace('/', '_')
@@ -411,10 +411,24 @@ class GoogleDriveHelper:
                 if INDEX_URL := config_dict['INDEX_URL']:
                     url_path = rquote(f'{file.get("name")}', safe='')
                     url = f'{INDEX_URL}/{url_path}'
-                    buttons.ubutton("⚡ Index Link", url)
                     if config_dict['VIEW_LINK']:
                         urlv = f'{INDEX_URL}/{url_path}?a=view'
                         buttons.ubutton("🌐 View Link", urlv)
+                    elif "video" in mime_type:
+                        result_get_0 = INDEX_URL.split("/")[3]
+                        resultpath = '/' + result_get_0 + '/' + meta.get("name")
+                        encoded_string = base64.b64encode(resultpath.encode("utf-8"))
+                        result_rmv_b = encoded_string.decode('utf-8')
+                        result_rmv_b = result_rmv_b.replace('/', '_')
+                        result_rmv_b = result_rmv_b.replace('+', '-')
+                        if result_rmv_b.startswith('b'):
+                            result_rmv_b = result_rmv_b[1:]
+                        INDEX_URLVIDEO = INDEX_URL.replace(result_get_0, "0:video/")
+                        share_urlvideo = INDEX_URLVIDEO + result_rmv_b
+                        buttons.ubutton("⚡ Index Link", url)
+                        buttons.ubutton("🎬 Stream Link", share_urlvideo)
+                    else:
+                        buttons.ubutton("⚡ Index Link", url)
         except Exception as err:
             if isinstance(err, RetryError):
                 LOGGER.info(f"Total Attempts: {err.last_attempt.attempt_number}")
