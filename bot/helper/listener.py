@@ -303,6 +303,11 @@ class MirrorLeechListener:
                 if typ == "Folder":
                     share_url += '/'
                     buttons.ubutton("⚡ Index Link", share_url)
+                elif "video" in typ:
+                    INDEX_URLVIDEO = INDEX_URL.replace("0:/", "video/")
+                    share_urlvideo = f'{INDEX_URLVIDEO}/{url_path}'
+                    buttons.ubutton("🎬 Stream Link", share_urlvideo)
+                    buttons.ubutton("⚡ Index Link", share_url)
                 else:
                     buttons.ubutton("⚡ Index Link", share_url)
                     if config_dict['VIEW_LINK']:
