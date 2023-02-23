@@ -76,7 +76,6 @@ async def update_user_settings(query):
     msg, button = await get_user_settings(query.from_user)
     await editMessage(query.message, msg, button)
 
-@new_thread
 async def user_settings(client, message):
     msg, button = await get_user_settings(message.from_user)
     await sendMessage(message, msg, button)
@@ -122,7 +121,7 @@ async def event_handler(client, query, pfunc, photo=False):
     handler_dict[user_id] = True
     start_time = time()
     async def event_filter(_, __, event):
-        return bool(event.from_user.id == user_id and event.chat.id == query.message.chat.id and \
+        return bool(event.from_user.id == user_id and event.chat.id == query.message.chat.id and
                     (event.text or event.photo and photo))
     handler = client.add_handler(MessageHandler(pfunc, filters=create(event_filter)), group=-1)
     while handler_dict[user_id]:
@@ -250,7 +249,6 @@ Check all available qualities options <a href="https://github.com/yt-dlp/yt-dlp#
         await message.reply_to_message.delete()
         await message.delete()
 
-@new_thread
 async def send_users_settings(client, message):
     if msg := ''.join(f'<code>{u}</code>: {escape(str(d))}\n\n' for u, d in user_data.items()):
         if len(msg.encode()) > 4000:
