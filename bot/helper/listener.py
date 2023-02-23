@@ -313,7 +313,7 @@ class MirrorLeechListener:
                     result_rmv_b = result_rmv_b.replace('+', '-')
                     if result_rmv_b.startswith('b'):
                         result_rmv_b = result_rmv_b[1:]
-                    INDEX_URLVIDEO = INDEX_URL.replace(result_get_0, "0:video")
+                    INDEX_URLVIDEO = INDEX_URL.replace(result_get_0, "0:video/")
                     share_urlvideo = INDEX_URLVIDEO + result_rmv_b
                     buttons.ubutton("🎬 Stream Link", share_urlvideo)
                     buttons.ubutton("⚡ Index Link", share_url)
