@@ -383,9 +383,9 @@ class GoogleDriveHelper:
                     url_path = rquote(f'{meta.get("name")}', safe='')
                     url = f'{INDEX_URL}/{url_path}/'
                     buttons.ubutton("⚡ Index Link", url)
-                elif "video" in typ:
+                elif "video" in mime_type:
                     result_get_0 = INDEX_URL.split("/")[3]
-                    resultpath = '/' + result_get_0 + '/' + escape(name)
+                    resultpath = '/' + result_get_0 + '/' + file.get('name')
                     encoded_string = base64.b64encode(resultpath.encode("utf-8"))
                     result_rmv_b = encoded_string.decode('utf-8')
                     result_rmv_b = result_rmv_b.replace('/', '_')
