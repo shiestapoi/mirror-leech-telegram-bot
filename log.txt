@@ -78,3 +78,86 @@
 2023-02-22 05:28:21,748 - bot - INFO - Cleaning Download: ./downloads/300
 2023-02-22 05:38:30,171 - bot - INFO - onDownloadComplete: riceDroid-13.0-202302101450-r5x-v10.2-Gapps-COMMUNITY.zip - Gid: 1bac776f69d035f2
 2023-02-22 05:38:30,177 - bot - INFO - Download completed: riceDroid-13.0-202302101450-r5x-v10.2-Gapps-COMMUNITY.zip
+2023-02-22 06:14:36,232 - root - INFO - Creating client from USER_SESSION_STRING
+2023-02-22 06:14:37,126 - pyrogram.connection.connection - INFO - Connecting...
+2023-02-22 06:14:37,341 - pyrogram.connection.connection - INFO - Connected! Production DC5 - IPv4 - TCPAbridgedO
+2023-02-22 06:14:37,342 - pyrogram.session.session - INFO - NetworkTask started
+2023-02-22 06:14:37,556 - pyrogram.session.internals.msg_id - INFO - Time synced: 2023-02-22 06:14:37.449440 UTC
+2023-02-22 06:14:38,040 - pyrogram.session.session - INFO - Session initialized: Layer 150
+2023-02-22 06:14:38,040 - pyrogram.session.session - INFO - Device: CPython 3.10.6 - Pyrogram 2.0.73
+2023-02-22 06:14:38,040 - pyrogram.session.session - INFO - System: Linux 5.10.133+ (EN)
+2023-02-22 06:14:38,040 - pyrogram.session.session - INFO - Session started
+2023-02-22 06:14:38,123 - pyrogram.session.session - INFO - PingTask started
+2023-02-22 06:14:39,399 - root - INFO - Initializing Aria2c
+2023-02-22 06:14:40,935 - root - INFO - Creating client from BOT_TOKEN
+2023-02-22 06:14:41,347 - pyrogram.session.auth - INFO - Start creating a new auth key on DC2
+2023-02-22 06:14:41,347 - pyrogram.connection.connection - INFO - Connecting...
+2023-02-22 06:14:41,457 - pyrogram.connection.connection - INFO - Connected! Production DC2 - IPv4 - TCPAbridgedO
+2023-02-22 06:14:42,803 - pyrogram.session.auth - INFO - Done auth key exchange: DhGenOk
+2023-02-22 06:14:42,803 - pyrogram.connection.connection - INFO - Disconnected
+2023-02-22 06:14:43,018 - pyrogram.connection.connection - INFO - Connecting...
+2023-02-22 06:14:43,161 - pyrogram.connection.connection - INFO - Connected! Production DC2 - IPv4 - TCPAbridgedO
+2023-02-22 06:14:43,162 - pyrogram.session.session - INFO - NetworkTask started
+2023-02-22 06:14:43,652 - pyrogram.session.session - INFO - Session initialized: Layer 150
+2023-02-22 06:14:43,652 - pyrogram.session.session - INFO - Device: CPython 3.10.6 - Pyrogram 2.0.73
+2023-02-22 06:14:43,652 - pyrogram.session.session - INFO - System: Linux 5.10.133+ (EN)
+2023-02-22 06:14:43,652 - pyrogram.session.session - INFO - Session started
+2023-02-22 06:14:43,690 - pyrogram.session.session - INFO - PingTask started
+2023-02-22 06:14:43,841 - pyrogram.session.session - INFO - PingTask stopped
+2023-02-22 06:14:43,842 - pyrogram.connection.connection - INFO - Disconnected
+2023-02-22 06:14:43,842 - pyrogram.session.session - INFO - NetworkTask stopped
+2023-02-22 06:14:43,842 - pyrogram.session.session - INFO - Session stopped
+2023-02-22 06:14:43,966 - pyrogram.session.auth - INFO - Start creating a new auth key on DC5
+2023-02-22 06:14:43,966 - pyrogram.connection.connection - INFO - Connecting...
+2023-02-22 06:14:44,181 - pyrogram.connection.connection - INFO - Connected! Production DC5 - IPv4 - TCPAbridgedO
+2023-02-22 06:14:53,338 - pyrogram.session.session - INFO - NetworkTask stopped
+2023-02-22 06:14:53,338 - pyrogram.session.session - INFO - PingTask stopped
+2023-02-22 06:14:53,339 - pyrogram.connection.connection - INFO - Disconnected
+2023-02-22 06:14:53,339 - pyrogram.session.session - INFO - Session stopped
+2023-02-22 06:14:53,339 - pyrogram.connection.connection - INFO - Connecting...
+2023-02-22 06:14:55,523 - pyrogram.connection.connection - INFO - Disconnected
+2023-02-22 06:14:55,523 - pyrogram.session.auth - INFO - Start creating a new auth key on DC5
+2023-02-22 06:14:55,524 - pyrogram.connection.connection - INFO - Connecting...
+2023-02-22 06:15:03,350 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: timed out
+2023-02-22 06:15:04,353 - pyrogram.connection.connection - INFO - Connecting...
+2023-02-22 06:15:05,535 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: timed out
+2023-02-22 06:15:06,538 - pyrogram.connection.connection - INFO - Connecting...
+2023-02-22 06:15:14,366 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: timed out
+2023-02-22 06:15:15,369 - pyrogram.connection.connection - INFO - Connecting...
+2023-02-22 06:15:16,548 - pyrogram.connection.connection - WARNING - Unable to connect due to network issues: timed out
+2023-02-22 06:15:17,551 - pyrogram.connection.connection - INFO - Connecting...
+2023-02-22 06:15:25,184 - pyrogram.connection.connection - INFO - Connected! Production DC5 - IPv4 - TCPAbridgedO
+2023-02-22 06:15:25,185 - pyrogram.session.session - INFO - NetworkTask started
+2023-02-22 06:15:25,187 - pyrogram.connection.connection - INFO - Connected! Production DC5 - IPv4 - TCPAbridgedO
+2023-02-22 06:15:25,754 - pyrogram.session.session - INFO - Session initialized: Layer 150
+2023-02-22 06:15:25,754 - pyrogram.session.session - INFO - Device: CPython 3.10.6 - Pyrogram 2.0.73
+2023-02-22 06:15:25,754 - pyrogram.session.session - INFO - System: Linux 5.10.133+ (EN)
+2023-02-22 06:15:25,754 - pyrogram.session.session - INFO - Session started
+2023-02-22 06:15:25,754 - pyrogram.session.session - INFO - PingTask started
+2023-02-22 06:15:26,606 - pyrogram.session.auth - INFO - Done auth key exchange: DhGenOk
+2023-02-22 06:15:26,606 - pyrogram.connection.connection - INFO - Disconnected
+2023-02-22 06:15:26,765 - pyrogram.connection.connection - INFO - Connecting...
+2023-02-22 06:15:26,979 - pyrogram.connection.connection - INFO - Connected! Production DC5 - IPv4 - TCPAbridgedO
+2023-02-22 06:15:26,980 - pyrogram.session.session - INFO - NetworkTask started
+2023-02-22 06:15:27,672 - pyrogram.session.session - INFO - Session initialized: Layer 150
+2023-02-22 06:15:27,673 - pyrogram.session.session - INFO - Device: CPython 3.10.6 - Pyrogram 2.0.73
+2023-02-22 06:15:27,673 - pyrogram.session.session - INFO - System: Linux 5.10.133+ (EN)
+2023-02-22 06:15:27,673 - pyrogram.session.session - INFO - Session started
+2023-02-22 06:15:27,673 - pyrogram.session.session - INFO - PingTask started
+2023-02-22 06:15:28,481 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks
+2023-02-22 06:15:31,783 - bot - INFO - Users data has been imported from Database
+2023-02-22 06:15:32,516 - bot - INFO - Creating Telegraph Account
+2023-02-22 06:15:33,227 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-02-22 06:15:33,228 - apscheduler.scheduler - INFO - Added job "RSS" to job store "default"
+2023-02-22 06:15:33,228 - apscheduler.scheduler - INFO - Scheduler started
+2023-02-22 06:15:33,346 - bot - INFO - Bot Started!
+2023-02-22 06:15:53,229 - apscheduler.executors.default - INFO - Running job "RSS (trigger: interval[0:15:00], next run at: 2023-02-22 06:30:53 UTC)" (scheduled at 2023-02-22 06:15:53.226963+00:00)
+2023-02-22 06:15:53,230 - bot - WARNING - RSS_CHAT_ID not added! Shutting down rss scheduler...
+2023-02-22 06:15:53,230 - apscheduler.executors.default - INFO - Job "RSS (trigger: interval[0:15:00], next run at: 2023-02-22 06:30:53 UTC)" executed successfully
+2023-02-22 06:15:53,231 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-02-22 06:20:14,913 - bot - ERROR - Shell - python --version - /bin/sh: 1: python: not found
+2023-02-22 06:20:21,039 - bot - INFO - Shell - python3 --version - Python 3.10.6
+2023-02-22 06:20:50,896 - bot - INFO - Downloading with YT-DLP: https://www.youtube.com/watch?v=EIPxJN1e1BI
+2023-02-22 06:20:52,265 - bot.helper.mirror_utils.download_utils.yt_dlp_download_helper - INFO - Download with YT_DLP: ❥ 撫でんな／柊マグネタイト【歌ってみた by 月乃】 720p30fps 906.mkv
+2023-02-22 06:21:00,733 - bot.helper.mirror_utils.download_utils.yt_dlp_download_helper - INFO - [Merger] Merging formats into "/downloads/321/❥ 撫でんな／柊マグネタイト【歌ってみた by 月乃】 720p30fps 906.mkv"
+2023-02-22 06:21:01,218 - bot - INFO - Download completed: ❥ 撫でんな／柊マグネタイト【歌ってみた by 月乃】 720p30fps 906.mkv
