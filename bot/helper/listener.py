@@ -5,7 +5,6 @@ from os import walk, path as ospath
 from html import escape
 from aioshutil import move
 from asyncio import create_subprocess_exec, sleep, Event
-import base64
 
 from bot import Interval, aria2, DOWNLOAD_DIR, download_dict, download_dict_lock, LOGGER, DATABASE_URL, MAX_SPLIT_SIZE, config_dict, status_reply_dict_lock, user_data, non_queued_up, non_queued_dl, queued_up, queued_dl, queue_dict_lock
 from bot.helper.ext_utils.bot_utils import sync_to_async
@@ -304,14 +303,6 @@ class MirrorLeechListener:
                 if typ == "Folder":
                     share_url += '/'
                     buttons.ubutton("⚡ Index Link", share_url)
-                elif "video" in typ:
-                    result_get_0 = INDEX_URL.split("/")[3]
-                    resultpath = '/' + result_get_0 + '/' + escape(name)
-                    result_rmv_b = base64.urlsafe_b64encode(resultpath.encode("utf-8")).decode('utf-8').rstrip('=')
-                    INDEX_URLVIDEO = INDEX_URL.replace(result_get_0, "0:video/")
-                    share_urlvideo = INDEX_URLVIDEO + result_rmv_b
-                    buttons.ubutton("⚡ Index Link", share_url)
-                    buttons.ubutton("🎬 Stream Link", share_urlvideo)
                 else:
                     buttons.ubutton("⚡ Index Link", share_url)
                     if config_dict['VIEW_LINK']:
