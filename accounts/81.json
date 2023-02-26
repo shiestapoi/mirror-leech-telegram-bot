@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "youtube-data-api-306018",
+  "private_key_id": "a17576bc139d67a44312440d2793897f999b6fd0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDTvVpHORkAyK4C\n5XYjxqF8lltq0znxP8AyshxVeTTZnDE8delKwDTXRC018iZzhokSVFe6AF8J2hYb\n+pd20SK4p7bc8byfZTe7FBWz/nXCcjEs9NyKKaXxwBhlck136fTrM4lz+oSX7mDs\n25jsFKCGbAKYSZ9em8/2KcvJbcDyW54KGbHKl9yHZY7J+WljDLo44CNTicN9VnVj\nmLnIh3XsR9OM9e5BOADQaAoWboKBuvB5/34ZZG3Rvs2zU4ZKhlZZceIdr4EGY+Wv\nlEBRmKjJ9yIRZCkcpp5bLNEEN7/mqIvIkPJm02nZQvE/V8PKkn9be2VKeJ6LIPyS\nAv21eTUfAgMBAAECggEADuHgkOBRgpLtsCRtVlG6vfqveDsFIpDG3d6o9n+rbZ7N\n0yBn16ovd0XtIOfhOKjRxOkKtXcbNve41W9FQBkDphObsGcz88bLJlS2EHhSfJVG\nzDsgWScDk+da5PPQwByV61uBo2uN8EPVVNs7zLQdHaBFL8D/o52zU0ECzX3vsYO1\neipP+kWItMyZokBXca/mW8Cs2KmxOdEc6BJ8eS+2xn0AQTLF0aUhww2JCBaKZ8yW\n2ANVJgsT/UK4rx40dlkQgLFM72jvIpnCq59FD8s1M/RNNT6FN+1HeRw3MWxIrztR\nopek1c8Tz+U4/h+CCxPpfrC5a6sEZ3mSIqrNjXUfWQKBgQD+aUXzuu0EHBfwm2LJ\ndbkSRmoU5XxhhaaLzM87xng+t0u2vMwYNv8pk7mVPR+q0/QEIMMtV6dCmkmATSLq\nLMtnAmYnC1KrS9C/oyVJwfzgKJnVVcUvJ0GXs5XO6bD9LGPKPt5gQYu43Pofbz9t\n5FCC0u0tuyDTxWYv4QwE6g4yHQKBgQDVD9xGTN1iJ3cgm5eWICjN/6rzGtzVktql\noNMO1n8JN1TYF47fJk8anxujrtp6CJHGlEjBY0QpB8WX/ZpIUHqDNAtJzl0jVpmZ\nT0tWktqfFnirxiPQRT9qhV9g7472Gz93FweKc3YZfN22hkgCnVOSdiqVDa3bMgeN\nfQ98rf/fawKBgQDxiec1AJp4VWfRMuV2WYNNO3cJwdr2B9rYTanOmZ6eBI4ov1SS\nBNz6j1sZun9vQ24f4S8MxHRzQmJYImPsqnyuntN3bEOfiAp3dyA2x6sa8tEifx0H\nqKCYs5KecLZtl5Bieo/MGU7bQ0lhQNCat7JMko9F5KzFAlwDRwmPPNwfbQKBgH0w\nsJFuILbH0auLQOqpQtCn5V6q7g9gFrEzalBRoJtds7C1RvG/pMNTsf3fg+gomN9B\nye430Zj6RBQmozzSbOoi7m8Tno5hGCeI/A+GgobvwT/NUMXTqouAiqZ+nFXndMcY\n9QlZBo+7Wtsg07cVkkGAxUyHmRwurVlpnmv4IVy5AoGBANNnhtU7sgLm9ylz8mc2\nUXO3QfK+r/tcnzMZ63dBNXbacaV9sjgLNKe1az2HeJ/5nfZjzLQoZot0BsfvY21C\nS5fMqJkhZC/HRLKQp6lpYjw+sL9Z0ItHDwFiVnAyOhU2xt/2YiolcZ9SWOokBGol\n66eLHZlsch24oJAa8CVm8ePb\n-----END PRIVATE KEY-----\n",
+  "client_email": "mfc-mpc-az04ekea4wrws95boxkqo4@youtube-data-api-306018.iam.gserviceaccount.com",
+  "client_id": "112124595342362629519",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mfc-mpc-az04ekea4wrws95boxkqo4%40youtube-data-api-306018.iam.gserviceaccount.com"
+}
